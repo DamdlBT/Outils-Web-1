@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+}
+
+p {
+    padding-bottom: 0.5em;
+    color: #252525;
+    line-height: 1.5em;
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-top: 3px;
+    color: #AAAAAA;
+}
+
+.h {
+    margin-top: 4px;
+}
+
+.h3 {
+    border: 1px dotted;
+}
+
+
+ol, ul {
+    padding-left: 20px;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+.note ul {
+    padding-left: 40px;
+}
+
+.lien ul {
+    list-style: square;
+}
+
+body a {
+    color: #238058;
+    text-decoration-line: none;
+}
+
+body a:hover {
+    color: #238058;
+    text-decoration-line: underline;
+}
+
+#lateral {
+    margin-top: -60px;
+    display: inline;
+    box-sizing: border-box;
+    width: 180px;
+    height: 100%;
+    float: left;
+    padding: 30px 20px;
+    overflow: hidden;
+    font-size: 0.80em;
+}
+
+#lateral img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+#lateral ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#main-container {
+    margin-top: 60px;
+    padding: 30px 20px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #A7D7F9;
+    color: #252525; 
+    background-color: white;
+    overflow: hidden;
+    font-size: 0.85em;
+}
+
+#main-container h1 {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-container h2 {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-container h3 {
+    font-size: 18px
+}
+
+#sommaire {
+    margin-bottom: 10px;
+    padding: 7px;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+#sommaire h4 {
+    text-align: center;
+}
+
+.code {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    background-color:#F9F9F9;
+}
+
+#pied-de-page {
+    text-align: right;
+    padding: 20px;
+}
+
+#pied-de-page p {
+    padding: 0;
+}
+
